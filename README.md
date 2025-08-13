@@ -60,7 +60,3 @@ To set up a Python virtual environment for the project, follow these steps:
 
 For questions or collaboration, feel free to reach out or submit issues and pull requests to contribute to the project.
 
-```
-
-
-Adjust any specific technical details not covered above based on the actual adjustments and configurations present in your implementation.
