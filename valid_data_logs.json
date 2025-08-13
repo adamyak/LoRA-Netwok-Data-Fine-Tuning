@@ -1,0 +1,452 @@
+[
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 49351.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 55730.95356451868, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 61874.0, Frame Length: 288.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56422.852159879825, Destination Port: 80.0, Frame Length: 176.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56497.86922728026, Destination Port: 80.0, Frame Length: 193.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 57291.632082324, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 53492.0, Frame Length: 74.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 61797.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53082.0, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53440.81565851239, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53865.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 50199.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56421.27633573333, Destination Port: 80.0, Frame Length: 176.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56940.655733212894, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680198.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680198.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53514.97345361108, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 59665.79119296206, Destination Port: 80.0, Frame Length: 268.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56447.44817479186, Destination Port: 80.0, Frame Length: 176.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53527.447965309184, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 59085.91339509125, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53643.907556082355, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 55017.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 55798.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56221.0, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56461.52279190372, Destination Port: 80.0, Frame Length: 176.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53421.23711366561, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 53947.0, Frame Length: 62.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53127.695004173016, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 64025.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56064.30956081374, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680198.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53609.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56501.35725791643, Destination Port: 80.0, Frame Length: 193.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 56895.0, Frame Length: 288.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56651.47817426022, Destination Port: 80.0, Frame Length: 174.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 58509.52030169526, Destination Port: 80.0, Frame Length: 268.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 57401.10591641023, Destination Port: 80.0, Frame Length: 268.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 54823.65064033881, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 52403.16150434705, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 59180.0, Destination Port: 80.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680183.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 53617.890219395726, Destination Port: 80.0, Frame Length: 169.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 1921680198.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Network scan identified. The source is likely scanning for active devices or open ports."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56491.59601607542, Destination Port: 80.0, Frame Length: 193.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680198.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 56431.78844691901, Destination Port: 80.0, Frame Length: 176.0 bytes.",
+    "output": "Data type probing. Strange payloads (e.g., strings) sent to devices expecting specific types."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 0.0, Destination IP: 0.0, Protocol: -1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 42.0 bytes.",
+    "output": "Man-in-the-Middle attack detected. Suspicious interception between source and destination."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 49651.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 63305.0, Frame Length: 54.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680183.0, Destination IP: 1921680121.0, Protocol: 1.0, Source Port: 0.0, Destination Port: 0.0, Frame Length: 98.0 bytes.",
+    "output": "DDoS attack detected. High volume of traffic to a specific target."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 1921680121.0, Destination IP: 192168035.0, Protocol: 6.0, Source Port: 80.0, Destination Port: 53118.0, Frame Length: 62.0 bytes.",
+    "output": "Normal traffic between IoT devices."
+  },
+  {
+    "instruction": "Determine the type of network traffic for the given log entry.",
+    "input": "Source IP: 192168035.0, Destination IP: 1921680121.0, Protocol: 6.0, Source Port: 50845.75210906964, Destination Port: 80.0, Frame Length: 269.0 bytes.",
+    "output": "Misconfiguration detected. Possibly a device sending out-of-spec data."
+  }
+]
